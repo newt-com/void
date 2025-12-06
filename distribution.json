@@ -22,7 +22,30 @@
             },
             "mainServer": true,
             "autoconnect": true,
-            "modules": []
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.15.3",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 3000000,
+                        "MD5": "d131dd02c5e6eec4693d9a0698aff95c",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.3/fabric-loader-0.15.3.jar"
+                    },
+                    "subModules": [
+                        {
+                        "id": "net.fabricmc:intermediary:1.20.1",
+                        "name": "Fabric Intermediary Mappings",
+                        "type": "Library",
+                        "artifact": {
+                            "size": 1200000,
+                            "MD5": "c4ca4238a0b923820dcc509a6f75849b",
+                            "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                        }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
