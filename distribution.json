@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "12334567890123456789",
+        "smallImageText": "WesterosCraft",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "https://westeroscraft.com/articles/index.rss",
+    "servers": [
+        {
+            "id": "VOID",
+            "name": "VOID",
+            "description": "VOID Server",
+            "icon": "https://www.svgrepo.com/show/358843/damage-void.svg",
+            "version": "1.0.0",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.20.1",
+            "discord": {
+                "shortId": "Example",
+                "largeImageText": "WesterosCraft Example Server",
+                "largeImageKey": "server-example"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": []
+        }
+    ]
+}
